@@ -4,6 +4,7 @@ import path from "path";
 import { componentTagger } from "lovable-tagger";
 
 export default defineConfig(({ mode }) => ({
+  base: "/ShriKrishnaEduPlaza/",   // <-- ADD this line
   server: {
     host: "::", // Or change to 'localhost' if you face issues
     port: 8080,
