@@ -4,9 +4,9 @@ import path from "path";
 import { componentTagger } from "lovable-tagger";
 
 export default defineConfig(({ mode }) => ({
-  base: "/ShriKrishnaEduPlaza/",   // <-- ADD this line
+ 
   server: {
-    host: "::", // Or change to 'localhost' if you face issues
+    host: "::", // Or change to 'localhost' if you face isues
     port: 8080,
   },
   plugins: [
